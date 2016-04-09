@@ -6,6 +6,7 @@ class ItemController extends Controller
 {
     public function index()
     {
-        return 'form controller';
+
+        return view('items.index');
     }
 }
